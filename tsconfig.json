@@ -1,0 +1,33 @@
+// Cái này để config cấu hình typeScript (thường thì leader dự base code sẽ làm sẵn)
+// Có thể xem thêm ở đây --> https://reactnative.dev/docs/typescript
+// Coi thôi chứ không hiểu đâu, nào hiểu tự nó hiểu :v
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
+
+// Tài liệu độc quyền by Bảo Châu
