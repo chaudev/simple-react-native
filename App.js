@@ -4,6 +4,8 @@ import {Provider as StoreProvider} from 'react-redux';
 import RootNavigator from '~/navigators/rootNavigator';
 import store from '~/store';
 
+// concac
+
 const App = () => {
   return (
     <StoreProvider store={store}>
